@@ -93,7 +93,7 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        <div className="w-full h-[300px] rounded-xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-500">
+                        <div className="w-full h-[300px] rounded-xl overflow-hidden">
                             <iframe
                                 src="https://maps.google.com/maps?q=Av.+Américo+Vespucio+1352,+Quilicura&t=&z=15&ie=UTF8&iwloc=&output=embed"
                                 width="100%"
