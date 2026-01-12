@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Paleta Principal - Inspirada en el Logo */
+    --brand-red: 0 100% 50%;
+    /* #FF0000 - Rojo Puro/Vibrante del logo */
+    --brand-yellow: 60 100% 50%;
+    /* #FFFF00 - Amarillo Puro/Vibrante del logo */
+    --brand-black: 0 0% 5%;
+    /* #0D0D0D - Negro Profundo */
+    --brand-dark-gray: 0 0% 15%;
+    /* #262626 */
+
+    --metallic-light: 0 0% 25%;
+
+    /* Tokens Semánticos */
+    --background: var(--brand-black);
+    --foreground: 0 0% 95%;
+
+    /* Primary ahora es Rojo para que "se vea" más */
+    --primary: var(--brand-red);
+    --primary-foreground: 0 0% 100%;
+    /* Texto blanco en fondo rojo */
+
+    /* Secondary/Accent es Amarillo */
+    --secondary: var(--brand-yellow);
+    --secondary-foreground: var(--brand-black);
+
+    --card: var(--brand-dark-gray);
+    --muted: 0 0% 40%;
+    --radius: 0.5rem;
+
+    --bull-red: var(--brand-red);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading uppercase tracking-wide;
+  }
+}
+
+@layer utilities {
+  .text-shadow-glow {
+    text-shadow: 0 0 40px hsl(var(--primary) / 0.5);
+  }
+
+  .text-brand-yellow {
+    color: hsl(var(--brand-yellow));
+  }
+
+  .bg-brand-yellow {
+    background-color: hsl(var(--brand-yellow));
+  }
+}
