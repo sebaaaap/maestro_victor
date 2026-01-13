@@ -26,7 +26,7 @@ export default function Hero() {
                         transition={{ delay: 0.2, duration: 0.5 }}
                         className="inline-block mb-4 px-4 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary uppercase tracking-widest text-sm font-bold"
                     >
-                        Maestro Víctor - Vulcanización Experta
+                        Vulcanización Quilicura - Maestro Víctor
                     </motion.div>
 
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-white mb-6 uppercase leading-tight drop-shadow-xl text-shadow-glow">
@@ -34,8 +34,8 @@ export default function Hero() {
                     </h1>
 
                     <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-                        Especialistas en maquinaria pesada y todo tipo de vehículos.
-                        Más de 10 años manteniendo a Chile en movimiento.
+                        Especialistas en maquinaria pesada y motocicletas. Atendemos todo tipo de vehículos.
+                        Más de 42 años manteniendo a Chile en movimiento.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

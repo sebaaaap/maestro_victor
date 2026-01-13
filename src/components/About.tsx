@@ -52,9 +52,8 @@ export default function About() {
                         </h2>
 
                         <p className="text-xl text-gray-300 mb-6 leading-relaxed">
-                            Bajo la experta mano del Maestro Víctor,
-                            nos dedicamos a la reparación integral de neumáticos con una trayectoria
-                            marcada por la calidad y el compromiso.
+                            En Vulcanización Quilicura,
+                            bajo la experta mano del Maestro Víctor, nos dedicamos a la reparación integral de neumáticos con una trayectoria marcada por la calidad y el compromiso.
                         </p>
 
                         <p className="text-gray-400 mb-8 leading-relaxed">
@@ -94,7 +93,7 @@ export default function About() {
                         <div className="grid grid-cols-2 gap-4">
                             <div className="col-span-2 bg-card p-8 rounded-2xl border border-white/5 text-center">
                                 <h3 className="text-5xl font-heading font-bold text-primary mb-2">
-                                    +<Counter from={0} to={10} />
+                                    +<Counter from={0} to={42} />
                                 </h3>
                                 <p className="text-gray-400 uppercase tracking-widest text-sm">Años de Experiencia</p>
                             </div>

@@ -5,8 +5,8 @@ import { Card, CardContent } from "./ui/card"
 const services = [
     {
         icon: Wrench,
-        title: "Reparación General",
-        desc: "Reparación de pinchazos y daños estructurales en frío o caliente."
+        title: "Automóviles y Motos",
+        desc: "Servicio completo para automóviles y motocicletas. Reparación y mantención experta."
     },
     {
         icon: Car,

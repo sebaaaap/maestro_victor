@@ -10,11 +10,11 @@ export default function Footer() {
                         <div className="flex items-center gap-3">
                             <img src="/logo.png" alt="Logo" className="h-12 w-auto" />
                             <h3 className="text-xl font-heading font-bold text-white">
-                                MAESTRO <span className="text-brand-yellow">VÍCTOR</span>
+                                VULCANIZACIÓN <span className="text-brand-yellow">QUILICURA</span>
                             </h3>
                         </div>
                         <p className="text-gray-400 text-sm leading-relaxed">
-                            Más de 10 años de experiencia en la reparación profesional de neumáticos y vulcanización. Calidad garantizada.
+                            Más de 42 años de experiencia en la reparación profesional de neumáticos y vulcanización. Calidad garantizada.
                         </p>
                     </div>
 
@@ -36,7 +36,7 @@ export default function Footer() {
                             <li>Av. Américo Vespucio 1352</li>
                             <li>Quilicura, 8700468</li>
                             <li>+56 9 3352 9570</li>
-                            <li>contacto@maestrovictor.cl</li>
+                            <li>salasvipejo@gmail.com</li>
                         </ul>
                     </div>
 
@@ -47,7 +47,7 @@ export default function Footer() {
                             <a href="https://www.facebook.com/vipejo" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-primary hover:text-white transition-all">
                                 <Facebook className="w-5 h-5" />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-primary hover:text-white transition-all">
+                            <a href="https://www.instagram.com/vulcanizacion_quilicura" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-primary hover:text-white transition-all">
                                 <Instagram className="w-5 h-5" />
                             </a>
                             <a href="https://www.tiktok.com/@vulcanizacion_quilicura" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-primary hover:text-white transition-all">
@@ -71,7 +71,7 @@ export default function Footer() {
                 </div>
 
                 <div className="mt-12 pt-8 border-t border-white/10 text-center text-sm text-gray-500">
-                    <p>© {new Date().getFullYear()} Maestro Victor. Todos los derechos reservados.</p>
+                    <p>© {new Date().getFullYear()} Vulcanización Quilicura. Todos los derechos reservados.</p>
                 </div>
             </div>
         </footer>

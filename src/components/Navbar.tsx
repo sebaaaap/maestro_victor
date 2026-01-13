@@ -32,7 +32,7 @@ export default function Navbar() {
                 <a href="#" className="flex items-center gap-2 group">
                     <img src="/logo.png" alt="Vulcanización Quilicura Logo" className="h-12 w-auto md:h-16 transition-transform group-hover:scale-105" />
                     <span className="hidden sm:block text-xl font-heading font-bold text-white group-hover:text-brand-yellow transition-colors">
-                        MAESTRO <span className="text-primary">VÍCTOR</span>
+                        VULCANIZACIÓN <span className="text-primary">QUILICURA</span>
                     </span>
                 </a>
 
