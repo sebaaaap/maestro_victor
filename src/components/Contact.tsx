@@ -79,7 +79,7 @@ export default function Contact() {
         }
 
         // Construir el mensaje de WhatsApp
-        const whatsappNumber = "56973772731"
+        const whatsappNumber = "56933529570"
         const message = `*Nuevo Mensaje de Contacto*%0A%0A` +
             `*Nombre:* ${formData.nombre}%0A` +
             `*Teléfono:* +56 ${formData.telefono}%0A` +
