@@ -1,0 +1,14 @@
+# Robots.txt para Vulcanización Quilicura
+# Permite a todos los motores de búsqueda indexar el sitio
+
+User-agent: *
+Allow: /
+
+# Bloquear archivos de configuración y desarrollo
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /*.json$
+Disallow: /*.config.js$
+
+# Sitemap
+Sitemap: https://vulcanizacionquilicura.cl/sitemap.xml

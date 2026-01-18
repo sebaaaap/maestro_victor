@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Página Principal -->
+  <url>
+    <loc>https://vulcanizacionquilicura.cl/</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://vulcanizacionquilicura.cl/logo.png</image:loc>
+      <image:title>Vulcanización Quilicura - Maestro Víctor Logo</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Sección Servicios -->
+  <url>
+    <loc>https://vulcanizacionquilicura.cl/#services</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Sección Nosotros -->
+  <url>
+    <loc>https://vulcanizacionquilicura.cl/#about</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Sección Testimonios -->
+  <url>
+    <loc>https://vulcanizacionquilicura.cl/#testimonials</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Sección Contacto -->
+  <url>
+    <loc>https://vulcanizacionquilicura.cl/#contact</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
